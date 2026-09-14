@@ -2,23 +2,21 @@ backend:
   name: github
   repo: WohenYoumo/Mizuki
   branch: master
-  base_url: https://mizuki-cms-auth.whym114.workers.dev/
+  base_url: https://mizuki-cms-auth.whym114.workers.dev
   auth_endpoint: /auth
   token_endpoint: /token
-  commit_messages:
-    create: '创建 {{collection}} "{{slug}}"'
-    update: '更新 {{collection}} "{{slug}}"'
-    delete: '删除 {{collection}} "{{slug}}"'
-    uploadMedia: '[媒体] 上传 {{filename}}'
-    deleteMedia: '[媒体] 删除 {{filename}}'
 
-# 以下为你之前已有的集合配置（如存在请保留，没有可参考添加）
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
 collections:
   - name: "post"
     label: "文章"
     folder: "content/posts"
     create: true
+    slug: "{{slug}}"
     fields:
       - { label: "标题", name: "title", widget: "string" }
-      - { label: "发布日期", name: "date", widget: "datetime" }
+      - { label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", default: "" }
+      - { label: "封面图", name: "cover", widget: "image", required: false }
       - { label: "正文", name: "body", widget: "markdown" }
