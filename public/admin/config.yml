@@ -1,28 +1,24 @@
 backend:
   name: github
-  repo: YaoShengHan114514/Mizuki
+  repo: WohenYoumo/Mizuki
   branch: master
-  auth_methods: [oauth]
-  base_url: https://你的worker.workers.dev
+  base_url: https://mizuki-cms-auth.whym114.workers.dev/
+  auth_endpoint: /auth
+  token_endpoint: /token
+  commit_messages:
+    create: '创建 {{collection}} "{{slug}}"'
+    update: '更新 {{collection}} "{{slug}}"'
+    delete: '删除 {{collection}} "{{slug}}"'
+    uploadMedia: '[媒体] 上传 {{filename}}'
+    deleteMedia: '[媒体] 删除 {{filename}}'
 
-media_folder: src/assets/uploads
-public_folder: /assets/uploads
-
+# 以下为你之前已有的集合配置（如存在请保留，没有可参考添加）
 collections:
-  - name: posts
-    label: 文章
-    folder: src/content/posts
+  - name: "post"
+    label: "文章"
+    folder: "content/posts"
     create: true
-    delete: true
-    slug: "{{slug}}"
-    format: yaml-frontmatter
     fields:
-      - { label: 标题, name: title, widget: string, required: true }
-      - { label: 发布日期, name: published, widget: datetime, required: true }
-      - { label: 描述, name: description, widget: text }
-      - { label: 封面图, name: image, widget: image, required: false }
-      - { label: 标签, name: tags, widget: list }
-      - { label: 分类, name: category, widget: string }
-      - { label: 草稿, name: draft, widget: boolean, required: false, default: false }
-      - { label: 置顶, name: pinned, widget: boolean, required: false, default: false }
-      - { label: 正文, name: body, widget: markdown }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布日期", name: "date", widget: "datetime" }
+      - { label: "正文", name: "body", widget: "markdown" }
