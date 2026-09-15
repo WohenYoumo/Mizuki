@@ -4,7 +4,7 @@ published: 2026-09-08
 pinned: true
 description: 一个 Markdown 博客文章的简单示例。
 tags: [Markdown, 博客]
-category: 示例
+category: 教程
 licenseName: "GNU Lesser General Public License v3.0"
 author: emn178
 sourceLink: "https://github.com/emn178/markdown"
