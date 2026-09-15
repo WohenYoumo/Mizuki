@@ -3,7 +3,7 @@ title: "图片画廊网格：语法与完整示例"
 published: 2026-09-09
 description: "一份关于图片画廊网格的语法、参数、裁剪、响应式行为、图注与灯箱导航的完整指南。"
 tags: [Markdown, 画廊, 图片网格, 演示]
-category: "示例"
+category: "教程"
 licenseName: "MIT License"
 draft: false
 ---
