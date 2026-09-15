@@ -1,17 +1,17 @@
 ---
 title: "关于我"
 date: 2026-09-15
-description: "高中生 · 编程爱好者 · 球场浪子 · ESFJ 天蝎 · 我很莜陌"
-category: 日常
+description: "高中生 · 编程大佬 · 英语大神 · 姚子 · 我很莜陌"
+category: 介绍
 tags: [自我介绍, 关于, Mizuki]
 draft: false
 pinned: true
 comment: true
 ---
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+本网站使用**Astro**框架构建，基于[Mizuki](https://github.com/WohenYoumo/Mizuki)主题。
 
-::github{repo="LyraVoid/Mizuki"}
+::github{repo="WohenYoumo/Mizuki"}
 
 ---
 
