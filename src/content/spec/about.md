@@ -19,7 +19,7 @@ comment: true
 
 > 💬 **座右铭**：*"Stay hungry, stay foolish." —— Steve Jobs*
 >
-> 🎯 **Slogan**：**「代码写诗，球场追风，幽默是我的超能力」**
+> 🎯 **Slogan**：**「代码写诗，球场追风，莜陌（幽默）是我的超能力」**
 
 ---
 
