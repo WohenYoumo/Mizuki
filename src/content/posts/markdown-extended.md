@@ -5,7 +5,7 @@ updated: 2026-09-08
 description: 'Mizuki 中的 GitHub 卡片、提示框、代码组、Wiki 链接、图片网格、PlantUML 等增强 Markdown 功能。'
 image: ''
 tags: [演示, 示例, Markdown, Mizuki]
-category: '示例'
+category: '教程'
 draft: false 
 ---
 
