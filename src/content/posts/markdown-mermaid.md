@@ -4,7 +4,7 @@ published: 2026-09-08
 pinned: false
 description: 一篇包含 Mermaid 图表的 Markdown 博客文章简单示例。
 tags: [Markdown, 博客, Mermaid]
-category: 示例
+category: 教程
 draft: false
 licenseName: "MIT License"
 ---
